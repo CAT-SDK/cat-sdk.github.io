@@ -19,7 +19,8 @@
 # in the templates via {{ site.myvariable }}.
 
 title: Code Analysis Toolkit SDK
-email: your-email@example.com
+#email: your-email@example.com
+show_downloads: false
 description: >- # this means to ignore newlines until "baseurl:"
   Software development kit for source code analysis tools.
   These are used to gain insight into the day-to-day programming
@@ -31,9 +32,11 @@ baseurl: "/"
 github_username:  CAT-SDK
 
 # Build settings
-theme: minima
+#theme: cayman
+remote_theme: pages-themes/cayman@v0.2.0
 plugins:
   - jekyll-feed
+  - jekyll-remote-theme
 
 # Exclude from processing.
 # The following items will not be processed, by default.
