@@ -21,8 +21,8 @@
 title: Code Analysis Toolkit SDK
 #email: your-email@example.com
 show_downloads: false
-description: >- # this means to ignore newlines until "baseurl:"
-  Software development kit for source code analysis tools.
+description: >- # this means to ignore newlines until "domain:"
+  CAT-SDK: A software development kit for source code analysis tools.
   These are used to gain insight into the day-to-day programming
   aspects of your project.
 domain: "cat-sdk.github.io"
